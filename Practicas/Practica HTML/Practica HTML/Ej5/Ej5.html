@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio con marcos</title>
+</head>
+<!-- frameset remplaza el body, divide la pagina en 3 filas horizontales de esos tamaños  -->
+<frameset rows="20%,60%,20%">
+    <!-- Primera fila: encabezado y logo -->
+     <!-- la primera fila se divide en 2 columnas, la primera ocupa el 70% y la segunda el 30% de la pantalla -->
+    <frameset cols="70%,30%">
+        <!-- esta es la 1ra fila -->
+        <frame src="encabezado.html" name="encabezado" noresize>
+        <!-- esta es la 2da fila -->
+        <!-- el noresize hace que no se pueda redimensionar el marco -->
+        <frame src="logo.html" name="logo" noresize>
+    </frameset>
+
+    <!-- Segunda fila: menú y contenido principal -->
+    <frameset cols="30%,70%">
+        <frame src="menu.html" name="menu" noresize>
+        <frame src="principal.html" name="principal" noresize>
+    </frameset>
+
+    <!-- Tercera fila: pie -->
+    <frame src="pie.html" name="pie" noresize>
+</frameset>
+</html>
