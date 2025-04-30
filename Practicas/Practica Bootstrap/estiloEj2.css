@@ -1,0 +1,29 @@
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+
+}
+
+.columna1 {
+    background-color: rgb(180, 14, 14);
+
+    text-align: center;
+    padding: 20px;
+}
+
+.columna2 {
+    background-color: rgb(14, 148, 237);
+
+
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.columna3 {
+    background-color: rgb(31, 169, 13);
+  
+    text-align: center;
+    padding: 20px;
+    
+}
